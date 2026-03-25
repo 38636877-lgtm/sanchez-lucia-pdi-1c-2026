@@ -69,3 +69,6 @@ data/processed/*
 # Logs
 *.log
 logs/
+
+# Directorio privado de desarrollo
+augR - aruco/
