@@ -215,6 +215,16 @@ Verificá que:
 2. Estés ejecutando el script desde la carpeta correcta
 3. Usás rutas relativas: `img/mi_imagen.jpg` en lugar de rutas absolutas
 
+### py5 no abre la ventana o no muestra la imagen
+En algunos sistemas operativos, py5 requiere un backend gráfico adicional. Instalá glfw:
+```bash
+pip install glfw
+```
+Si el problema persiste, consultá la [guía de instalación de py5](https://py5coding.org/content/installation.html) que detalla los requisitos específicos para cada sistema operativo.
+
+### Error de Java al ejecutar py5
+py5 requiere Java para funcionar. Si ves un error relacionado con Java, instalá la versión apropiada según tu sistema operativo siguiendo las [instrucciones oficiales de instalación de py5](https://py5coding.org/content/installation.html).
+
 ---
 
 ## Recursos adicionales
@@ -224,6 +234,7 @@ Verificá que:
 - [Documentación de Matplotlib](https://matplotlib.org/)
 - [Documentación de scikit-image](https://scikit-image.org/docs/)
 - [Documentación de py5](https://py5coding.org/)
+- [Guía de instalación de py5 (incluye requisitos de Java)](https://py5coding.org/content/installation.html)
 - [Google Colab Help](https://colab.research.google.com/notebooks/intro.ipynb)
 
 ---
