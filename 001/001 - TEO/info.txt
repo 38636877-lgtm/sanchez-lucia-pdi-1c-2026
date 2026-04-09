@@ -1,0 +1,18 @@
+# Setup básico
+py5.size(ancho, alto)
+py5.background(color)
+
+# Colores
+py5.fill(r, g, b)
+py5.stroke(color)
+py5.color_mode(py5.RGB, 255)  # o py5.HSB
+
+# Imágenes
+py5.load_image("archivo")
+py5.image(img, x, y, ancho, alto)
+py5.tint(r, g, b)
+
+# Píxeles
+py5.load_pixels()
+py5.pixels[index] = color
+py5.update_pixels()
