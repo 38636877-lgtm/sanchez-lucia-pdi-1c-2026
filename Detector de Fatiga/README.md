@@ -79,6 +79,7 @@ Permite:
 ●	Visualizar el eje vertical de la cabeza.
 ●	Consultar los valores EAR, MAR, pitch e índice compuesto.
 ●	Modificar los umbrales mediante controles deslizantes.
+
 Los controles disponibles son:
 ●	Confianza mínima de detección facial.
 ●	Umbral EAR.
